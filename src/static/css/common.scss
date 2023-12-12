@@ -1,0 +1,48 @@
+/* text */
+
+.font-big {
+    font-size: var(--font-size-big);
+}
+
+.font-normal {
+    font-size: var(--font-size);
+}
+
+.text--bold {
+    font-weight: 700;
+}
+
+.text--bolder {
+    font-weight: 900;
+}
+
+/* cursor */
+.cursor--default {
+    cursor: default;
+}
+
+.cursor--pointer {
+    cursor: pointer;
+}
+
+/* display */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
