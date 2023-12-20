@@ -6,7 +6,7 @@ type Props = {
 
 export default function DefaultLayout({children} : Props) {
     return (
-        <div className="">
+        <div className="container d-flex">
             <Sidebar/>
             <div className="content">
                 {children}

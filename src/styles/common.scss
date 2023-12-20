@@ -1,11 +1,13 @@
+@import '@/styles/_variables.scss';
+
 /* text */
 
 .font-big {
-    font-size: var(--font-size-big);
+    font-size: $font-size--big;
 }
 
 .font-normal {
-    font-size: var(--font-size);
+    font-size: $font-size;
 }
 
 .text--bold {
